@@ -1,0 +1,63 @@
+/* Benjamin Davis last edited 12/9/2021 */
+
+Body{
+    Font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    background-color: rgb(188, 143, 143)
+}
+
+li{
+    Font-size: 30px;
+    Font-style: normal;
+    text-align:left
+
+}
+
+a{
+    Color: rgb(17, 81, 133);
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.bold{
+    font-weight: bold;
+
+}
+
+.Common{
+    background-image: url("assets/img/BG3.jpg");
+    Border: solid 3px rgb(8, 8, 8);
+    Position: absolute;
+}
+
+.Header{
+    Top: 5px;
+    Left: 164px;
+    Right: 164px;
+    Height:400px;
+    font-size: 100px;
+    text-align: center;
+    Border: solid 3px black;
+    
+
+}
+
+.Mainbody{
+    Top: 214 px;
+    Bottom: 64px;
+    Left: 214px;
+    Right: 214px;
+}
+
+.Footer{
+    Bottom: 5px;
+    Left: 214px;
+    Right: 214px;
+    Height: 50px;
+    font-size: 8px;
+    text-align: Center;
+    Position: fixed;
+}
